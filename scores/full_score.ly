@@ -8,7 +8,8 @@
 
 \paper {
 	indent = 1\cm
-	#(define (page-post-process layout pages) (ly:create-toc-file layout pages))
+	% #(define (page-post-process layout pages) (ly:create-toc-file layout pages))
+	systems-per-page = #2
 }
 
 #(set-global-staff-size 15.87)
@@ -77,7 +78,7 @@
 				\new FiguredBass { \KyrieBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4 = 100 }
 		}
 	}
 }

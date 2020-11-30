@@ -69,6 +69,39 @@ KyrieBassoLyrics = \lyricmode {
 	bis. %52 finis
 }
 
+SanctaBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \autoBeamOff \tempoSancta
+		R1*27 %27
+		r2 r4 r8 \mvTr d16\fE^\tuttiE d
+		g8 fis g d16 d r4 r8 e16 e
+		a8 gis a e r4 r8 a16 a %30
+		d8 cis d a h a16([ gis)] a8([ gis16 fis)]
+		e1
+		r8 e' e d d cis r h16([ a)]
+		gis8 a e4 a, r8 d
+		g!4. e8 a4. fis8
+		h[ g h cis] d[ cis16 h] a[ g fis e]
+		d8 g a([ a,)] d g, a4
+		d r r2\fermata \bar "|."
+	}
+}
+
+SanctaBassoLyrics = \lyricmode {
+	Vir -- go %28
+	pru -- den -- tis -- si -- ma, vir -- go
+	ve -- ne -- ran -- da, vir -- go %30
+	prae -- di -- can -- da, vir -- go po --
+	tens,
+	vir -- go fi -- de -- lis, o --
+	ra pro no -- bis, o --
+	\xE ra, o -- ra, o -- %35
+	_ _ _
+	\x ra pro no -- bis, pro no --
+	bis. %38 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

@@ -61,3 +61,46 @@ KyrieViolinoII = {
 		d,2 r4\fermata \bar "||" %52 finis
 	}
 }
+
+SanctaViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoSancta
+		a2\fE fis'~
+		fis16 e h' g e8 d cis4 a'
+		\tuplet 6/4 4 { a16 g fis g a h } h8.( a32 h) \tuplet 6/4 4 { h16 a g a h cis } cis8.( h32 cis)
+		\tuplet 6/4 4 { cis16 h a h cis d } d8.( cis32 d) \tuplet 6/4 4 { d16 cis h cis d e } e8.( d32 e)
+		\tuplet 6/4 4 { fis16 e fis g fis e } h8 cis d a d,4 %5
+		a2\p \once \tieDashed fis'~
+		fis16 e h' g e8 d \tuplet 3/2 8 { cis16 h a } a8 r4
+		r2 r16 d' fis a d4
+		r2 r16 e,, gis h e4
+		r16 fis, a d-\critnote fis4 r16 gis, h e gis4 %10
+		r16 a, cis e fis8 fis h,4 r
+		e,2\p cis'
+		cis16 h fis' d h8 a \tuplet 6/4 4 { gis16 fis e } e8 r4
+		R1*3 %16
+		fis2 d'
+		h16 h ais h cis8 h ais4 r8 h
+		h4 r8 a a4 r8 d
+		cis4 r8 cis h4 r8 h %20
+		e,4 r r2
+		r4 r8 d g4 a
+		h8 a16 g fis8 r r2
+		a,\fE fis'~
+		fis16 e h' g e8 d \appoggiatura d cis4 a' %25
+		\tuplet 6/4 4 { a16 g fis g a h } h8.( a32 h) \tuplet 6/4 4 { h16 a g a h cis } cis8.( h32 cis)
+		\tuplet 6/4 4 { cis16 h a h cis d } d8.( cis32 d) \tuplet 6/4 4 { d16 cis h cis d e } e8.( d32 e)
+		\tuplet 6/4 4 { fis16 e fis g fis e } h8 cis d a d,4
+		d16 e32 fis g a h c? d16 c?32 h a g fis e d4 r
+		e16 fis32 gis a h cis d e16 d32 cis h a gis fis e8 e a cis %30
+		d16 a cis a d a cis a d d cis h cis cis h a
+		h8 cis4 h a gis16 fis
+		gis32 e fis gis a h cis d e8 e e e r e
+		e fis e h cis4 r8 a'
+		d,4 r8 h' e,4 r8 a %35
+		g fis g a a4 r
+		R1
+		R\fermataMarkup \bar "||" %38 finis
+	}
+}

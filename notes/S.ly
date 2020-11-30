@@ -104,6 +104,53 @@ KyrieSopranoLyrics = \lyricmode {
 	bis. %52 finis
 }
 
+SanctaSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \autoBeamOff \tempoSancta
+		R1*11 %11
+		\mvTr e2\pE^\solo cis'
+		cis16( h)] fis'([ d)] h8([ a)] gis e' e e
+		e d16([ cis)] d8. d16 cis4 r
+		r2 r8 d cis h %15
+		ais8. h16 cis8 ais h h h([ ais)]
+		h4 r r2
+		R1*10 %27
+		r2 r8 \mvTr a\fE^\tuttiE d4
+		d8 d d d16 d r8 h e4
+		e8 e e e, r4 r8 e'16 e %30
+		fis8 e fis e r2
+		r8 e4 d cis( h16[ a])
+		gis8 h h h h a r d
+		d cis16([ h)] h4 a8 a d4~
+		d8 h e4. cis8 fis4 %35
+		d8[( cis d e]) fis4 r
+		r8 d d([ cis)] d h a4
+		a r r2\fermata \bar "||" %38 finis
+	}
+}
+
+SanctaSopranoLyrics = \lyricmode {
+	Ma -- ter, %12
+	ma -- ter Chri -- sti, ma -- ter di --
+	vi -- nae gra -- ti -- ae,
+	ma -- ter ca -- %15
+	stis -- si -- ma, o -- ra pro no --
+	bis.
+
+	Vir -- go %28
+	pru -- den -- tis -- si -- ma, vir -- go
+	ve -- ne -- ran -- da, vir -- go %30
+	prae -- di -- can -- da,
+	vir -- go cle --
+	mens, vir -- go fi -- de -- lis, o --
+	ra pro no -- bis, o -- ra, __
+	o -- ra, o -- ra, %35
+	o -- ra
+	pro no -- bis, pro no --
+	bis. %38 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

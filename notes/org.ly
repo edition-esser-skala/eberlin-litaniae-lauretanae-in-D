@@ -118,6 +118,92 @@ KyrieBassFigures = \figuremode {
 	r2. %52 finis
 }
 
+SanctaOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \tempoSancta
+		r8 \mvTr d\fE-\solo fis d r d d' d,
+		g4. e8 a g fis d
+		g g, g' g a a, a' a
+		h h, h' h cis cis, cis' cis
+		d h^\critnote g a d,4 r %5
+		r8 d\pE fis d r d d' d,
+		g4. e8 a a,16 h cis8 a
+		h4 cis d8 d16 e fis8 d
+		h cis d h e d cis cis
+		d d d d e e e e %10
+		fis fis dis dis e cis16 d? e8 e,
+		r a cis a r a a' a,
+		d4. h8 e e gis e
+		r fis gis e a a, cis a
+		r h cis a d4 e %15
+		fis4. fis8 h^\critnote e, fis fis,
+		r h d h r h h' h,
+		e4.^\critnote e8 fis4 r8 dis
+		e4 cis d h
+		cis a h gis %20
+		a8 a'16 g! fis8 d g e a fis
+		h a16 g fis8 r r2
+		r4 r8 fis g e a a,
+		r d\fE fis d r d d' d,
+		g4. e8 a g fis d %25
+		g g, g' g a a, a' a
+		h h, h' h cis cis, cis' cis
+		d h^\critnote g a d,4 r8 d16-\tuttiE d
+		g8 fis g d r4 r8 e16 e
+		a8 gis a e r4 r8 a16 a %30
+		d8 cis d a h a16 gis a8 gis16 fis
+		e1
+		r8 e' e d d cis r h16 a
+		gis8 a e4 a, r8 d
+		g4. e8 a4. fis8 %35
+		h8 a^\critnote h cis d cis16 h a g fis e
+		d8 g a a, d g, a4
+		d4^\critnote r r2\fermata \bar "||" %38 finis
+	}
+}
+
+SanctaBassFigures = \figuremode {
+	r1
+	<7>8 <6>4 \bo <[7]>4. \bc <[6]>4
+	<9>8 <8> <10>4 <9>8 <8> <10>4
+	<9>8 <8> <10>4 <9>8 <8> <10>4
+	r8 <6>4 <7>8 r2 %5
+	r1
+	<7>8 <6>4 \bo <[7]>4. <[6]>4
+	<7>8 <6> <6 5>4 \bo <[4]>8 <3> \bc <[6]>4
+	r4 <6>8 <7> <_+>4 <6>
+	<5> <6> <5 _+> <6 \t> %10
+	<5> <6>8 <5> <_+> \bo <[6]>16 <6> \bc <[_+]>4
+	r1
+	<7>8 <6>4 \bo <[7]>8 <_+>4 \bc <[6]>
+	r8 <[6]> <6 5> <[7 _+]> r4 <[6]>
+	r8 <[6!]> <6 5!> <[7]> r4 \bo <[8] 6>8 \bc <[7] 5> %15
+	<_+>2. <[4]>8 <_+>
+	r1
+	\bo <[7 5]>4 <8 6>8 \bc <[7 5]> <_+>4. <6 [5!]>8
+	r4 <6>8 <5> r4 <6>8 <5>
+	r4 <6>8 <5> r4 <6>8 <5> %20
+	\bo <[4]>8 <3> \bc <[6]>4 <3>8 <5> <3> <5>
+	<3> q16 q <[6]>2.
+	r4. \bo <[6]>8 r4 <4>8 \bc <[3]>
+	r1
+	<7>8 <6>4 <7>8 r4 <[6]> %25
+	<9>8 <8> <10>4 <9>8 <8> <10>4
+	<9>8 <8> <10>4 <9>8 <8> <10>4
+	r1
+	r8 <[6]>2. <_+>8
+	r8 \bo <[6]>4 \bc <[_+]>8 r2 %30
+	r8 <[6]>4. <3>8 q16 q q8 q16 q
+	<1>1
+	r8 <_+>4 <2+> <6>4.
+	<6>8 q <4> <_+> r2
+	<9>8 <8> <6>4 <9>8 <8> <6>4 %35
+	<6>2 <3>8 q16 q r4
+	r <4>8 <3> r2
+	r1 %38 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

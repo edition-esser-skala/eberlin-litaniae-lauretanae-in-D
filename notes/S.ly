@@ -151,6 +151,111 @@ SanctaSopranoLyrics = \lyricmode {
 	bis. %38 finis
 }
 
+SpeculumSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \autoBeamOff \tempoSpeculum
+		R2.*47 %47
+		r4 \mvTr e'\fE^\tuttiE e
+		e4. e8 gis,4
+		a a fis' %50
+		dis4. cis8 h4
+		e d2
+		d4( cis8[ h)] cis4
+		h e8([ d cis h)]
+		cis4 cis cis %55
+		cis2 e4
+		fis2.(
+		e4.)^\critnote dis8 e4
+		h2.
+		h %60
+		cis
+		dis
+		e4 r r
+		r r cis
+		h8[ d e d cis h] %65
+		cis[ a h cis] d4
+		d d( cis)
+		d d d
+		d d d
+		d4. d8 d4 %70
+		r d d
+		d2 d4
+		d4. d8 d4
+		a4. a8 a4
+		g fis r %75
+		R2.
+		fis'4. fis8 fis4
+		fis2.
+		fis\fermata
+		e4 dis8[ e fis dis] %80
+		e4 dis r
+		e( dis) e^\critnote
+		d cis8[ d e cis]
+		d4 cis r
+		d( cis) d %85
+		e d( cis)
+		d a h
+		c( a) h
+		d( c h)
+		a a a %90
+		h( c) d
+		d( cis) d
+		e d( cis)
+		d2 r4\fermata \bar "||" %94 finis
+	}
+}
+
+SpeculumSopranoLyrics = \lyricmode {
+	Ro -- sa %48
+	my -- sti -- ca,
+	tur -- ris Da -- %50
+	vi -- di -- ca,
+	o -- ra,
+	o -- ra
+	pro no --
+	bis, ro -- sa, %55
+	ro -- sa
+	my --
+	sti -- ca,
+	o --
+	ra %60
+	pro
+	no --
+	bis,
+	o --
+	_ %65
+	_ ra
+	pro no --
+	bis, tur -- ris,
+	tur -- ris e --
+	bur -- ne -- a, %70
+	to -- mus,
+	to -- mus
+	au -- re -- a,
+	foe -- de -- ris
+	ar -- ca, %75
+
+	ia -- nu -- a
+	coe --
+	li,
+	o -- _ %80
+	_ ra,
+	o -- ra,
+	o -- _
+	_ ra,
+	o -- ra %85
+	pro no --
+	bis, stel -- la
+	ma -- tu --
+	ti --
+	\xE na, o -- ra, %90
+	o -- ra,
+	o -- \x ra
+	pro no --
+	bis. %94 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

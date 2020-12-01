@@ -81,12 +81,71 @@
 	% 		\midi { \tempo 4 = 100 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "2"
+	% 		title = "S A N C T A   M A R I A"
+	% 	}
+	% 	\tocSection "2" "Sancta Maria"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\SanctaViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\SanctaViolinoII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S"
+	% 					\new Voice = "Soprano" { \dynamicUp \SanctaSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \SanctaSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \SanctaAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \SanctaAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "T"
+	% 					\new Voice = "Tenore" { \dynamicUp \SanctaTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \SanctaTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "B"
+	% 					\new Voice = "Basso" { \dynamicUp \SanctaBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \SanctaBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\SanctaOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \SanctaBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 70 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "2"
-			title = "S A N C T A   M A R I A"
+			number = "3"
+			title = "S P E C U L U M   I U S T I T I A E"
 		}
-		\tocSection "2" "Sancta Maria"
+		\tocSection "3" "Speculum iustitiae"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -94,50 +153,50 @@
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\SanctaViolinoI
+							\SpeculumViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\SanctaViolinoII
+							\SpeculumViolinoII
 						}
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "S"
-						\new Voice = "Soprano" { \dynamicUp \SanctaSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \SpeculumSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \SanctaSopranoLyrics
+					\new Lyrics \lyricsto Soprano \SpeculumSopranoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \SanctaAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \SpeculumAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \SanctaAltoLyrics
+					\new Lyrics \lyricsto Alto \SpeculumAltoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "T"
-						\new Voice = "Tenore" { \dynamicUp \SanctaTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \SpeculumTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \SanctaTenoreLyrics
+					\new Lyrics \lyricsto Tenore \SpeculumTenoreLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "B"
-						\new Voice = "Basso" { \dynamicUp \SanctaBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \SpeculumBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \SanctaBassoLyrics
+					\new Lyrics \lyricsto Basso \SpeculumBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\SanctaOrgano
+						\SpeculumOrgano
 					}
 				>>
-				\new FiguredBass { \SanctaBassFigures }
+				\new FiguredBass { \SpeculumBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 70 }
+			% \midi { \tempo 4 = 105 }
 		}
 	}
 }

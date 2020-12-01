@@ -139,6 +139,119 @@ SanctaAltoLyrics = \lyricmode {
 	bis. %38 finis
 }
 
+SpeculumAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \autoBeamOff \tempoSpeculum
+		R2.*43 %43
+		r4 \mvTr a'4\fE^\tutti a
+		a4. a8 cis,4 %45
+		d d h'
+		gis4. fis8 e4
+		e2.
+		e
+		fis2 a4 %50
+		h2 a4
+		gis fis8([ e)] fis([ gis)]
+		a4 e \once \tieDashed a~
+		a gis8[ fis] gis4
+		a e e %55
+		e4. e8 a4
+		a a d
+		h4. a8 gis4
+		\once \tieDashed gis2.~
+		gis %60
+		a2 r4
+		R2.
+		h4( a8[ gis? a h)]
+		e,2^\critnote e4
+		h'2. %65
+		\once \tieDashed a~
+		a4 g!2
+		fis4 fis a
+		h fis a
+		h4. h8 fis4 %70
+		r fis a
+		h(^\critnote fis) a
+		h4. h8 fis4
+		fis4. fis8 fis4
+		g fis r %75
+		h,4. dis8 fis4
+		a2.~
+		a
+		a2.\fermata
+		g4 fis8[ g a fis] %80
+		g4 fis r
+		h( a) g
+		fis e8[ fis g e]
+		fis4 e r
+		a( g) fis %85
+		g e2
+		fis4 fis g
+		a( fis) g
+		h( a g)
+		fis fis fis %90
+		g( fis) g
+		g2 fis4
+		h a2
+		a r4\fermata \bar "||" %94 finis
+	}
+}
+
+SpeculumAltoLyrics = \lyricmode {
+	Ro -- sa %44
+	my -- sti -- ca, %45
+	tur -- ris Da --
+	vi -- di -- ca,
+	o --
+	ra,
+	o -- _ %50
+	_ _
+	_ ra pro
+	no -- _ _
+	_ _
+	bis, ro -- sa %55
+	my -- sti -- ca,
+	tur -- ris Da --
+	vi -- di -- ca,
+	o --
+	%60
+	ra,
+
+	o --
+	ra pro
+	no -- %65
+	_
+	_
+	bis, tur -- ris
+	tur -- ris e --
+	bur -- ne -- a, %70
+	to -- mus,
+	to -- mus
+	au -- re -- a,
+	foe -- de -- ris
+	ar -- ca, %75
+	ia -- nu -- a
+	coe --
+
+	li,
+	o -- _ %80
+	_ ra,
+	o -- ra,
+	o -- _
+	_ ra,
+	o -- ra %85
+	pro no --
+	bis, stel -- la
+	ma -- tu --
+	ti --
+	na, o -- ra, %90
+	o -- ra,
+	o -- ra
+	pro no --
+	bis. %94 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

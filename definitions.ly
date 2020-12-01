@@ -662,6 +662,7 @@ tocLabel = #(define-music-function
 
 tempoKyrie = \tempoMarkup "Allegro"
 tempoSancta = \tempoMarkup "[Tempo deest]"
+tempoSpeculum = \tempoMarkup "[Tempo deest]"
 
 
 \include "notes/vl1.ly"

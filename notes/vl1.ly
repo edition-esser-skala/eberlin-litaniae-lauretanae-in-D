@@ -105,6 +105,84 @@ SanctaViolinoI = {
 	}
 }
 
+SpeculumViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \tempoSpeculum
+		R2.*8 %8
+		r8 e'\fE e e e16 fis cis e
+		r8 d d d d16 e h d %10
+		cis8.\trill a16 fis4 gis
+		a8. cis16 \appoggiatura cis4 h2\trillE
+		a16( e' cis a) \appoggiatura cis4 h2\trillE
+		a32 a'16. fis32 d16. e32^\critnote fis16. a,32 cis16. \appoggiatura cis8 h4
+		a8.\pE gis16 fis4 gis %15
+		a8. cis16 \appoggiatura cis4 h2\trillE
+		\once \slurDashed a16( e' cis a) \appoggiatura cis4 h2\trillE
+		a32\f a'16. fis32 d16. e32^\critnote fis16. a,32 cis16. \appoggiatura cis8 h4
+		a r r
+		R2.*14 %33
+		r8 e'\fE e e e16 fis cis e
+		r8 d d d d16 e h d %35
+		cis8.\trill a16 fis4 gis?
+		a8. cis16 \appoggiatura cis4 h2\trillE
+		\once \slurDashed a16( e' cis a) \appoggiatura cis4 h2\trill
+		a32 a'16. fis32 d16. e32 fis16. a,32 cis16. \appoggiatura cis8 h4
+		a8.\pE gis?16 fis4 gis? %40
+		a8. cis16 \appoggiatura cis4 h2^\critnote\trillE
+		a16( e' cis a) \appoggiatura cis4 h2\trillE
+		a32\fE a'16. fis32 d16. e32 fis16. a,32 cis16. \appoggiatura cis8 h4
+		a r r
+		R2.*3 %47
+		r4 e' e
+		e4. e8 gis,4
+		a a fis' %50
+		dis4. cis8 h4
+		e d2~
+		d4 cis8 h cis4
+		h e8 d cis h
+		cis4 cis cis %55
+		cis2 e4
+		fis2.
+		e4.^\critnote dis8 e4
+		h2.
+		h %60
+		cis^\critnote
+		dis
+		e4 r r
+		r r cis
+		h8 d e d cis h %65
+		cis a h cis d4
+		d d cis
+		d fis a
+		h fis a
+		h4. h8 a4 %70
+		r fis a
+		h fis a
+		h4. h8 a4
+		fis4. fis8 fis4
+		\appoggiatura a8 g4 fis r %75
+		R2.
+		r4 h, dis
+		fis dis fis
+		a2.\fermata
+		g4 fis8 g a fis %80
+		g4 fis r
+		R2.
+		fis4 e8 fis g e
+		fis4 e r
+		a,2 d4 %85
+		e d cis
+		d2 r4
+		R2.*2
+		r4 a a %90
+		h c d
+		d e fis
+		g fis e
+		fis2 r4\fermata \bar "||" %94 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

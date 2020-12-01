@@ -102,6 +102,148 @@ SanctaBassoLyrics = \lyricmode {
 	bis. %38 finis
 }
 
+SpeculumBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \major \time 3/4 \autoBeamOff \tempoSpeculum
+		\mvTr a4.\pE^\solo h8 cis d
+		e4. fis8 gis4
+		a4. gis8 fis h
+		gis8. fis16 e4 r8 e
+		fis d'4 h fis8 %5
+		e cis'4 a e8
+		d h'4 gis e16[ d]
+		cis[ e fis gis] a8 d, e4
+		a,2 r4
+		R2.*9 %18
+		a8 a a([ h)] cis d
+		e4. fis8 gis4 %20
+		a4.( gis8) fis h
+		gis([ fis)] e4 r8 e
+		a4 a, g'
+		fis8([ e)] d4 fis
+		h( h,) a' %25
+		gis8. fis16 e4 gis
+		cis( cis,) h'
+		a8. gis16 fis8 fis d'4
+		d8([ h)] cis cis cis cis
+		cis([ a)] h h h h %30
+		h([ gis?)] a a4 gis?16[ fis]
+		e8[ cis' h a gis? fis]
+		e a d,4( e)
+		a,2 r4
+		R2.*20 %54
+		r4 \mvTr a'\fE^\tutti a %55
+		a4. a8 cis,4
+		d d h'
+		gis4. fis8 e4
+		e2.
+		e %60
+		fis2 a4
+		h2 a4
+		gis fis8[ e fis gis]
+		a4 e a
+		a \once \tieDashed g!2~ %65
+		g \once \tieDashed fis4~
+		fis e2
+		d4 d fis
+		g d fis
+		g4. g8 d4 %70
+		r d fis
+		g( d) fis
+		g4. g8 d4
+		c4. c8 c4
+		h a r %75
+		R2.
+		h4. h8 h4
+		h2.
+		h\fermata
+		R %80
+		e4( h') a
+		g( fis) e
+		R2.
+		d4( a') g
+		fis( e) d %85
+		g a( a,)
+		d2 r4
+		R2.*2
+		r4 d' c %90
+		h( a) g
+		e2 d4
+		g a( a,)
+		d2 r4\fermata \bar "||" %94 finis
+	}
+}
+
+SpeculumBassoLyrics = \lyricmode {
+	Spe -- cu -- lum iu --
+	sti -- ti -- ae,
+	se -- des sa -- pi --
+	en -- ti -- ae, o --
+	_ _ _ _ %5
+	_ _ _ _
+	_ _ _ _
+	_ ra pro no --
+	bis.
+
+	Cau -- sa no -- strae lae -- %19
+	ti -- ti -- ae, %20
+	o -- ra pro
+	no -- bis, vas
+	spi -- ri -- tu --
+	a -- le, vas
+	ho -- no -- %25
+	ra -- bi -- le, vas
+	ho -- no --
+	ra -- bi -- le, vas in --
+	si -- gne de -- vo -- ti --
+	o -- nis, de -- vo -- ti -- %30
+	o -- nis, o -- _
+	_
+	ra pro no --
+	bis.
+
+	Ro -- sa %55
+	my -- sti -- ca,
+	tur -- ris Da --
+	vi -- di -- ca,
+	o --
+	ra, %60
+	o -- _
+	_ _
+	_ _
+	_ _ ra
+	pro no -- %65
+	_
+	_
+	bis, tur -- ris,
+	tur -- ris e --
+	bur -- ne -- a, %70
+	to -- mus,
+	to -- mus
+	au -- re -- a,
+	foe -- de -- ris
+	ar -- ca, %75
+
+	ia -- nu -- a
+	coe --
+	li,
+	%80
+	o -- ra,
+	o -- ra,
+
+	o -- ra,
+	o -- ra %85
+	pro no --
+	bis,
+
+	o -- \xE ra, %90
+	o -- ra,
+	o -- \x ra
+	pro no --
+	bis. %94 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

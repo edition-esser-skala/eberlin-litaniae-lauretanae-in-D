@@ -131,6 +131,89 @@ SanctaTenoreLyrics = \lyricmode {
 	bis. %38 finis
 }
 
+SpeculumTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 3/4 \autoBeamOff \tempoSpeculum
+		R2.*58 %58
+		r4 \mvTr e\fE^\tutti e
+		e4. e8 gis,4 %60
+		a a fis'
+		dis4. cis8 h4
+		e \once \tieDashed d2~
+		d4 cis8[ h] cis4
+		h8[ d e d cis h] %65
+		cis[ a h cis] d4
+		d d( cis)
+		d a a
+		g^\critnote a a
+		g4. g8 a4 %70
+		r a a
+		g( a) a
+		g4. g8 a4
+		d4. d8 d4
+		d c r %75
+		R2.
+		dis4. dis8 dis4
+		dis2.
+		dis\fermata
+		R %80
+		r4 dis cis8[( h)]
+		h4( a) h
+		R2.
+		r4 cis h8([ a)]
+		a2 a4 %85
+		h a2
+		a4 d d
+		d2 d4
+		d2.
+		d4 d d %90
+		d( c) h
+		g2^\critnote a4
+		g^\critnote fis( e)
+		fis2 r4\fermata \bar "||" %94 finis
+	}
+}
+
+SpeculumTenoreLyrics = \lyricmode {
+	Ro -- sa %59
+	my -- sti -- ca, %60
+	tur -- ris Da --
+	vi -- di -- ca,
+	o -- _
+	_ _
+	_
+	_ ra
+	pro no --
+	bis, tur -- ris,
+	tur -- ris e --
+	bur -- ne -- a, %70
+	to -- mus,
+	to -- mus
+	au -- re -- a,
+	foe -- de -- ris
+	ar -- ca, %75
+
+	ia -- nu -- a
+	coe --
+	li,
+	%80
+	o -- ra,
+	o -- ra,
+
+	o -- ra,
+	o -- ra %85
+	pro no --
+	bis, stel -- la
+	ma -- tu --
+	ti --
+	na, o -- ra, %90
+	o -- \xE ra,
+	o -- \x ra
+	pro no --
+	bis. %94 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

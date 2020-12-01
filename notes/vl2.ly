@@ -104,3 +104,83 @@ SanctaViolinoII = {
 		R\fermataMarkup \bar "||" %38 finis
 	}
 }
+
+SpeculumViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \tempoSpeculum
+		R2.*8 %8
+		r8 cis'\fE cis cis cis16 d a cis
+		r8 h h h h16 cis gis h %10
+		cis,8.\trill e16 fis4 d
+		cis8. a'16 \appoggiatura a4 gis2-\critnote\trillE
+		\once \slurDashed a16( e' cis a) \appoggiatura a4 gis2\trillE
+		a32^\critnote a'16. fis32 d16. e32 fis16. a,32 cis16. \appoggiatura cis8 h4
+		a8.\p e16 fis4 d %15
+		cis8. a'16 \appoggiatura a4 gis2\trillE
+		\once \slurDashed a16( e' cis a) \appoggiatura a4 gis2-\critnote\trillE
+		a32^\critnote\f a'16. fis32 d16. e32 fis16. a,32 cis16. \appoggiatura cis8 h4
+		a r r
+		R2.*14 %33
+		r8 cis\fE cis cis cis16 d a cis
+		r8 h h h h16 cis gis h %35
+		cis,8.\trill e16 fis4 d
+		cis8. a'16 \appoggiatura a4 gis2\trillE
+		\once \slurDashed a16( e' cis a) \appoggiatura a4 gis2-\critnote\trillE
+		a32^\critnote a'16. fis32 d16. e32 fis16. a,32 cis16. \appoggiatura cis8 h4
+		a8.\pE-\critnote e16 fis4 d %40
+		cis8. a'16 \appoggiatura a4 gis2\trillE
+		\once \slurDashed a16( e' cis a) \appoggiatura a4 gis2-\critnote\trillE
+		a32\f^\critnote a'16. fis32 d16. e32 fis16. a,32 cis16. \appoggiatura cis8 h4
+		a a a
+		a4. a8 cis,4 %45
+		d d h'
+		gis?4. fis8 e4
+		e2.
+		e
+		fis2 a4 %50
+		h2 a4
+		gis? fis8 e fis gis?
+		a4 e \once \tieDashed a~
+		a gis?8 fis gis?4
+		a e e %55
+		e4. e8 a4
+		a a d
+		h4. a8 gis?4
+		\once \tieDashed gis2.~
+		gis %60
+		a2 r4
+		R2.
+		h4 a8 gis? a h
+		e,2-\critnote e4
+		h'2. %65
+		\once \tieDashed a~-\critnote
+		a4 g!2
+		fis4 d' d
+		d8 d, d'4 d
+		d8 d, d'4 d %70
+		r d d
+		d8 d, d'4 d
+		d8 d, d'4 d
+		a4. a8 d4
+		d c r %75
+		h, dis fis
+		a r r
+		r h dis
+		fis2.\fermata
+		e4 dis8 e fis dis %80
+		e4 dis r
+		R2.
+		d!4 cis8 d e cis
+		d4 cis r
+		fis,2 a4 %85
+		h a e
+		fis2 r4
+		R2.*2
+		r4 d' d %90
+		d c h
+		g2-\critnote a4
+		e' d cis
+		d2 r4\fermata \bar "||" %94 finis
+	}
+}

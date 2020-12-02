@@ -415,6 +415,50 @@ SpeculumBassFigures = \figuremode {
 	r2. %94 finis
 }
 
+SalusOrgano = {
+	\relative c {
+		\clef bass
+		\key h \minor \time 4/4 \tempoSalus
+		\mvTr h8\pE-\solo h h h h h cis cis
+		h h h h h h h h
+		fis' fis fis fis fis fis fis fis
+		eis eis eis eis fis fis fis fis
+		e e e e d d d d %5
+		cis cis cis cis cis cis cis cis
+		fis fis fis fis e! e e e
+		d d d d cis cis ais ais
+		h h eis eis fis fis fis fis
+		g g g g fis fis fis fis %10
+		e e e e d d d d
+		cis cis cis cis h h h h
+		fis' fis, fis fis fis fis fis fis
+		fis fis fis fis fis fis fis fis
+		fis fis fis fis fis fis fis fis %15
+		h h h h h h h h
+		h h ais ais h2\fermata \bar "||" %17 finis
+	}
+}
+
+SalusBassFigures = \figuremode {
+	r2. <6\\>4
+	r1
+	\bo <[7 _+]>4. <6 4>8 <5 _+> <6 4> \bc <[7 _+]>4
+	\bo <[7 _+]>2 \bc <[_+ \l]>
+	<4+ 2> <[6]> %5
+	<7 _+>4 <6! 4>2 <[5+] _+>4
+	r2 <4+ 2>
+	\bo <[6 \l]> <6\\>4 <6 4>8 \bc <[5 3]>
+	r4 \bo <[7 _+]> \bc <[_+ \l]>2
+	<7>4 <6> <7> <6> %10
+	<7> <6> <7> <6>
+	<7> <6\\>2.
+	<_+>2 <9+ 8>4 <9! 7>
+	<8 \t> <\t 6> <7+ \t> <7! 5>
+	<6\\ \t> <6! 4> <5 \t> <7 _+> %15
+	<8 _+> <7! \t> <6 4> <5 _+>
+	<6 4> <7> <_+>2 %17 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

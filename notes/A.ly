@@ -252,6 +252,19 @@ SpeculumAltoLyrics = \lyricmode {
 	bis. %94 finis
 }
 
+SalusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 4/4 \autoBeamOff \tempoSalus
+		R1*16 %15
+		R1\fermataMarkup \bar "||" %17 finis
+	}
+}
+
+SalusAltoLyrics = \lyricmode {
+
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

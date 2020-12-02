@@ -184,3 +184,27 @@ SpeculumViolinoII = {
 		d2 r4\fermata \bar "||" %94 finis
 	}
 }
+
+SalusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 4/4 \tempoSalus
+		d16\pE d d d d d d d d d d d e e e e
+		d d d d d d d d d d d d d d d d
+		cis cis cis cis cis-\critnote cis h h ais ais h h cis cis cis cis
+		h h' h h h h h h ais ais ais ais ais ais ais ais
+		fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis %5
+		gis gis gis gis fis fis fis fis fis fis fis fis eis eis eis eis
+		fis a,? a a a a a a fis' fis fis fis fis fis fis fis
+		fis fis fis fis fis fis fis fis cis' cis cis cis h h ais ais
+		h h h h h h h h ais ais ais ais ais ais ais ais
+		h h h h h h h h a a a a a a a a %10
+		g g g g g g g g fis fis fis fis fis fis fis fis
+		e e e e e e e e d h' h h h h h h
+		fis fis fis fis fis fis fis fis gis gis gis gis g g g g
+		fis fis fis fis fis fis fis fis eis eis eis eis e e e e
+		dis dis dis dis d d d d cis cis cis cis e e e e %15
+		dis dis dis dis dis dis dis dis e e e e dis dis dis dis
+		e e e e e e e e dis2\fermata \bar "||" %17 finis
+	}
+}

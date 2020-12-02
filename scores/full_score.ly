@@ -9,7 +9,7 @@
 \paper {
 	indent = 1\cm
 	% #(define (page-post-process layout pages) (ly:create-toc-file layout pages))
-	systems-per-page = #2
+	% systems-per-page = #2
 }
 
 #(set-global-staff-size 15.87)
@@ -140,12 +140,72 @@
 	% 		\midi { \tempo 4 = 70 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "3"
+	% 		title = "S P E C U L U M   I U S T I T I A E"
+	% 	}
+	% 	\tocSection "3" "Speculum iustitiae"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\SpeculumViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\SpeculumViolinoII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S"
+	% 					\new Voice = "Soprano" { \dynamicUp \SpeculumSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \SpeculumSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \SpeculumAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \SpeculumAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "T"
+	% 					\new Voice = "Tenore" { \dynamicUp \SpeculumTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \SpeculumTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "B"
+	% 					\new Voice = "Basso" { \dynamicUp \SpeculumBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \SpeculumBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\SpeculumOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \SpeculumBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 105 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "3"
-			title = "S P E C U L U M   I U S T I T I A E"
+			number = "4"
+			title = "S A L U S   I N F I R M O R U M"
 		}
-		\tocSection "3" "Speculum iustitiae"
+		\paper { systems-per-page = #3 }
+		\tocSection "4" "Salus infirmorum"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -153,50 +213,32 @@
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\SpeculumViolinoI
+							\SalusViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\SpeculumViolinoII
+							\SalusViolinoII
 						}
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "S"
-						\new Voice = "Soprano" { \dynamicUp \SpeculumSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \SpeculumSopranoLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \SpeculumAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \SpeculumAltoLyrics
-
-					\new Staff {
 						\set Staff.instrumentName = "T"
-						\new Voice = "Tenore" { \dynamicUp \SpeculumTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \SalusTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \SpeculumTenoreLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "B"
-						\new Voice = "Basso" { \dynamicUp \SpeculumBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \SpeculumBassoLyrics
+					\new Lyrics \lyricsto Tenore \SalusTenoreLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\SpeculumOrgano
+						\SalusOrgano
 					}
 				>>
-				\new FiguredBass { \SpeculumBassFigures }
+				\new FiguredBass { \SalusBassFigures }
 			>>
 			\layout { }
-			% \midi { \tempo 4 = 105 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

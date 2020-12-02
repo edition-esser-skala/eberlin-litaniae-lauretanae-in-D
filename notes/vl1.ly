@@ -183,6 +183,30 @@ SpeculumViolinoI = {
 	}
 }
 
+SalusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 4/4 \tempoSalus
+		h'16\pE h h h h h h h h h h h ais ais ais ais
+		h h h h fis fis fis fis fis fis fis fis fis fis fis fis
+		e e e e e-\critnote e d d cis cis d d e e e e
+		d d' d d d d d d cis cis cis cis cis cis cis cis
+		ais ais ais ais ais ais ais ais h h h h h h h h %5
+		h h h h a a a a a a a a gis? gis gis gis
+		fis fis fis fis fis fis fis fis ais ais ais ais ais ais ais ais
+		h h h h h h h h e e e e d d cis cis
+		d d d d d d d d cis cis cis cis fis fis fis fis
+		fis fis fis fis e e e e e e e e d d d d %10
+		d d d d cis cis cis cis cis cis cis cis h h h h
+		h h h h ais ais ais ais d d d d d d d d
+		cis cis cis cis fis fis fis fis fis fis fis fis e e e e
+		e e e e d d d d d d d d cis cis cis cis
+		cis cis cis cis h h h h h h h h ais ais ais ais %15
+		h h h h a a a a g g g g fis fis fis fis
+		g g g g g g g g fis2\fermata \bar "||" %17 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

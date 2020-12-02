@@ -214,6 +214,50 @@ SpeculumTenoreLyrics = \lyricmode {
 	bis. %94 finis
 }
 
+SalusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key h \minor \time 4/4 \autoBeamOff \tempoSalus
+		\mvTr fis2(\pE^\solo d4. cis8)
+		h2 r4 fis8 h
+		ais4. h8 cis([ d] e4
+		d2) cis4 cis
+		cis8. cis16 cis4 h h %5
+		h( a!2 gis4)
+		fis fis8 fis ais4. ais8
+		h4. d8 e4( d8[ cis]
+		d2) cis4 fis
+		fis8. fis16 e4 e d8 d %10
+		d4 cis2 h4~
+		h ais d2
+		cis4 fis2 e4~
+		e d2 \once \tieDashed cis4~
+		cis h h( ais) %15
+		h h h h
+		h2 h\fermata \bar "||" %17 finis
+	}
+}
+
+SalusTenoreLyrics = \lyricmode {
+	Sa --
+	lus, sa -- lus
+	in -- fir -- mo --
+	rum, re --
+	fu -- gi -- um pec -- ca -- %5
+	to --
+	rum, con -- so -- la -- trix
+	af -- fli -- cto --
+	rum, au --
+	xi -- li -- um Chri -- sti -- a -- %10
+	no -- rum, o --
+	_ _
+	ra, o -- _
+	_ ra __
+	pro no -- %15
+	bis, o -- ra pro
+	no -- bis. %17 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

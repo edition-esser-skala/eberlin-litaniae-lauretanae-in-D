@@ -244,6 +244,19 @@ SpeculumBassoLyrics = \lyricmode {
 	bis. %94 finis
 }
 
+SalusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key h \minor \time 4/4 \autoBeamOff \tempoSalus
+		R1*16 %15
+		R1\fermataMarkup \bar "||" %17 finis
+	}
+}
+
+SalusBassoLyrics = \lyricmode {
+
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

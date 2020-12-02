@@ -256,6 +256,19 @@ SpeculumSopranoLyrics = \lyricmode {
 	bis. %94 finis
 }
 
+SalusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 4/4 \autoBeamOff \tempoSalus
+		R1*16 %15
+		R1\fermataMarkup \bar "||" %17 finis
+	}
+}
+
+SalusSopranoLyrics = \lyricmode {
+
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

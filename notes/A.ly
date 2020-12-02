@@ -252,17 +252,79 @@ SpeculumAltoLyrics = \lyricmode {
 	bis. %94 finis
 }
 
-SalusAltoNotes = {
+ReginaAltoNotes = {
 	\relative c' {
 		\clef treble
-		\key h \minor \time 4/4 \autoBeamOff \tempoSalus
-		R1*16 %15
-		R1\fermataMarkup \bar "||" %17 finis
+		\key d \major \time 3/4 \autoBeamOff \tempoRegina
+		R2.*7 %7
+		r8 \mvTr a'\fE^\tuttiE h4( a)
+		a2 r4
+		r8 a h4( a) %10
+		a8 a a a a a
+		gis4 g8 g g g
+		fis4 fis8 gis4 gis8
+		a4 a8 e e e
+		e4 e r %15
+		r r8 h' h e,
+		e4 e r
+		r r8 a a a
+		g8. g16 g8 g a a
+		a4 a8 a16([ g] fis[ g a h]) %20
+		a4 r8 fis16([\pE e] fis[ g a h])
+		e,4 r8 a([\fE g a)]
+		a4 r8 a([ g a]
+		h[ a16 g]) fis8 d g e
+		fis a h h a4 %25
+		a r r
+		R2.*6 %32
+		r8 a([ g a)] a4
+		r8 a([ g a] h[ a16 g)]
+		fis8 d g4 a %35
+		a8 a h h a4
+		\time 4/4 \tempoReginaSanctorum a a fis fis
+		r8 fis fis fis fis8. fis16 fis4
+		g1
+		a2 h %40
+		a4 r r a
+		a2 a
+		\once \tieDashed a~ a
+		a1\fermata \bar "||" %44 finis
 	}
 }
 
-SalusAltoLyrics = \lyricmode {
+ReginaAltoLyrics = \lyricmode {
+	Re -- gi -- %8
+	na,
+	re -- gi -- %10
+	na, re -- gi -- a An -- ge --
+	lo -- rum, Pa -- tri -- ar --
+	cha -- rum, Pro -- phe --
+	ta -- rum, A -- po -- sto --
+	lo -- rum, %15
+	o -- ra pro
+	no -- bis,
+	re -- gi -- na
+	Vir -- gi -- num, o -- ra pro
+	no -- bis, o -- %20
+	ra, o --
+	ra, o --
+	ra, o --
+	ra, o -- ra, o --
+	ra, o -- ra pro no -- %25
+	bis,
 
+	o -- ra, %33
+	o --
+	ra, o -- \xE ra, o -- %35
+	\x ra, o -- ra pro no --
+	bis, re -- gi -- na
+	San -- cto -- rum o -- mni -- um,
+	o --
+	_ _ %40
+	ra, o --
+	ra \xE pro
+	no --
+	\x bis. %44 finis
 }
 
 % AltoNotes = {

@@ -256,17 +256,79 @@ SpeculumSopranoLyrics = \lyricmode {
 	bis. %94 finis
 }
 
-SalusSopranoNotes = {
+ReginaSopranoNotes = {
 	\relative c' {
 		\clef treble
-		\key h \minor \time 4/4 \autoBeamOff \tempoSalus
-		R1*16 %15
-		R1\fermataMarkup \bar "||" %17 finis
+		\key d \major \time 3/4 \autoBeamOff \tempoRegina
+		R2.*7 %7
+		r8 \mvTr d'\fE^\tutti e4( cis)
+		d2 r4
+		r8 d e4( cis) %10
+		d r r
+		r8 e e e e e16 e
+		dis4 d8 d4 d8
+		cis4 cis8 cis cis cis
+		h4 h8 h h h %15
+		a8. a16 a8 d d d
+		cis4 cis8 fis fis fis
+		e4. e8 e4
+		d4. d8 e e
+		a,8. a16 a8 fis'16([ e] fis[ e fis d]) %20
+		e4 r8 a,\p a a
+		a4 r8 cis([\f d e]
+		fis[ e16 d]) cis8 d4 cis8
+		d4 d8 d( h16[ a h cis])
+		d8 d d4( cis) %25
+		d r r
+		R2.*6 %32
+		r8 cis([ d e] fis[ e16 d])
+		cis8 d4 cis8 d4
+		d8 d( h16[ a h cis] d[ cis d e]) %35
+		fis8 d d4( cis)
+		\time 4/4 \tempoReginaSanctorum d4 d d d
+		r8 d d d dis8. dis16 dis4
+		r2 e
+		fis d %40
+		cis4 r r cis
+		cis2 d
+		cis8([ a] d2 cis4)
+		d1\fermata \bar "||" %44 finis
 	}
 }
 
-SalusSopranoLyrics = \lyricmode {
+ReginaSopranoLyrics = \lyricmode {
+	Re -- gi -- %8
+	na,
+	re -- gi -- %10
+	na,
+	re -- gi -- na Pa -- tri -- ar --
+	cha -- rum, Pro -- phe --
+	ta -- rum, A -- po -- sto --
+	lo -- rum, re -- gi -- na %15
+	Mar -- ty -- rum, o -- ra pro
+	no -- bis, re -- gi -- na
+	Con -- fes -- so --
+	rum, re -- gi -- na
+	Vir -- gi -- num, o -- %20
+	ra, o -- ra, o --
+	ra, o --
+	ra, o -- ra,
+	o -- ra, o --
+	ra pro no -- %25
+	bis,
 
+	o -- %33
+	ra, o -- ra, o --
+	ra, o -- %35
+	ra pro no --
+	bis, re -- gi -- na
+	San -- cto -- rum o -- mni -- um,
+	o --
+	_ _ %40
+	ra, o --
+	ra \xE pro
+	no --
+	\x bis. %44 finis
 }
 
 % SopranoNotes = {

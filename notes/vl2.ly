@@ -208,3 +208,48 @@ SalusViolinoII = {
 		e e e e e e e e dis2\fermata \bar "||" %17 finis
 	}
 }
+
+ReginaViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \tempoRegina
+		R2.*7 %7
+		r8 d'\fE e4 cis
+		d2 r4
+		r8 d e4 cis %10
+		d8 a a a a a
+		gis4 g8 g g g
+		fis4 fis8 gis4 gis8
+		a4 a8 e e e
+		e4 e r %15
+		r r8 h' h gis
+		a4 a8 a'4 a8
+		a4 a,8 a' a a
+		g!8. g16 g8 g a e
+		a,4 a8 fis'16 e d e fis d %20
+		cis4 r r
+		r16 a' e cis a8 cis d e
+		fis e16 d cis8 d4 cis8
+		d4 d8 d h16 a h cis
+		d8 d d4 cis %25
+		d8 fis,\p fis fis d d
+		e e e e cis cis
+		d d d d h h
+		cis cis cis cis a a
+		h h h h gis gis %30
+		a cis d cis d e
+		fis cis h a h cis
+		d cis'\f d e fis e16 d
+		cis8 d4 e8 d4
+		d8 d h16 a h cis d cis d e %35
+		fis8 fis d g e e
+		\time 4/4 \tempoReginaSanctorum fis4 d d d
+		r8 d d d dis8. dis16 dis4
+		h8 h h h e e e e
+		a, a a a d d d d %40
+		cis a cis e a cis, cis cis
+		cis cis cis cis d4 a
+		cis8 a d d d4 cis
+		d1\fermata \bar "||" %44 finis
+	}
+}

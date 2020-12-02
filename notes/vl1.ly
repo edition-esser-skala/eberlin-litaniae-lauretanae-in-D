@@ -207,6 +207,51 @@ SalusViolinoI = {
 	}
 }
 
+ReginaViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \tempoRegina
+		R2.*7 %7
+		r8 fis'\fE g4 e
+		fis2 r4
+		r8 fis g4 e %10
+		fis^\critnote r r
+		r8 e e e e e
+		dis4 r8 d d4
+		cis cis8 cis cis cis
+		h4 h8 h h h %15
+		a8. a16 a8 d d d
+		cis4 cis8 fis fis fis
+		e4 r8 e e e
+		d g g g e e
+		fis8. fis16 fis8 a16 g fis g a fis %20
+		e4 r r
+		r16 a g a a,8 a' g a
+		a4 r8 a h cis
+		d cis16 h a8 fis h g
+		a fis d g e a %25
+		fis a,\pE a4. h16 fis
+		g8 g4 g a16 e
+		fis8 fis4 fis g16 d
+		e8 e4 e fis16 cis
+		d8 d4 d e16 h %30
+		cis8 a'4 g fis16 e
+		fis8 a4 g fis16 e
+		fis8 a'\fE g a a4
+		r8 a h cis d cis16 h
+		a8 fis d g e a %35
+		fis a h g a e
+		\time 4/4 \tempoReginaSanctorum fis4 fis fis fis
+		r8 fis fis fis fis8. fis16 fis4
+		g8 g g g g g g g
+		fis fis fis fis f f f f %40
+		e a, cis e a e e e
+		e e e e a,4 d
+		cis8 a d^\critnote fis a4 e
+		\once \tieDashed fis2~ fis\fermata \bar "||" %44
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

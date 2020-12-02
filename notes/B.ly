@@ -244,17 +244,77 @@ SpeculumBassoLyrics = \lyricmode {
 	bis. %94 finis
 }
 
-SalusBassoNotes = {
+ReginaBassoNotes = {
 	\relative c {
 		\clef bass
-		\key h \minor \time 4/4 \autoBeamOff \tempoSalus
-		R1*16 %15
-		R1\fermataMarkup \bar "||" %17 finis
+		\key d \major \time 3/4 \autoBeamOff \tempoRegina
+		R2.*7 %7
+		r8 \mvTr d\fE^\tuttiE g4( a)
+		d,2 r4
+		r8 d g4( a) %10
+		d, r r
+		R2.*2
+		r8 a' a a a a16 a
+		gis4 g8 g g g %15
+		fis8. fis16 fis8 gis gis gis
+		a4 a8 d d d
+		cis4. cis8 cis4
+		h4. h8 cis cis
+		d8. d16 d8 d,16([ cis] d[ e fis g)] %20
+		a4 r8 d,16([\pE cis] d[ e fis g)]
+		a4 r8 a([\fE h cis]
+		d[ cis16 h)] a8 fis([ g a]
+		h[ a16 g)] fis8 d( g16[ fis g a])
+		h8 fis g e a([ a,)] %25
+		d4 r r
+		R2.*6 %32
+		r8 a'([ h cis] d[ cis16 h)]
+		a8 fis8([ g a] h[ a16 g)]
+		fis8 d( g16[ fis g a] h[ a h cis)] %35
+		d8 fis, g e a([ a,)]
+		\time 4/4 \tempoReginaSanctorum d4 d c c
+		r8 c c c h8. h16 h4
+		e2 cis
+		d gis %40
+		a4 r r a
+		g2 fis4( e8[ d)]
+		a'1
+		d,\fermata \bar "||" %44 finis
 	}
 }
 
-SalusBassoLyrics = \lyricmode {
+ReginaBassoLyrics = \lyricmode {
+	Re -- gi -- %8
+	na,
+	re -- gi -- %10
+	na,
 
+	re -- gi -- na A -- po -- sto -- %14
+	lo -- rum, re -- gi -- na %15
+	Mar -- ty -- rum, o -- ra pro
+	no -- bis, re -- gi -- na
+	Con -- fes -- so --
+	rum, re -- gi -- na %20
+	Vir -- gi -- num, o --
+	ra, o --
+	ra, o --
+	ra, o --
+	ra, o --
+	ra, o -- ra pro no -- %25
+	bis,
+
+	o -- %33
+	ra, o --
+	ra, o -- %35
+	ra, o -- ra pro no --
+	bis, re -- gi -- na
+	San -- cto -- rum o -- mni -- um,
+	o -- _
+	_ _ %40
+	ra, o --
+	ra pro __
+	no --
+	bis. %44 finis
 }
 
 % BassoNotes = {

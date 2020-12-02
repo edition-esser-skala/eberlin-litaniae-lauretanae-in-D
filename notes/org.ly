@@ -459,6 +459,99 @@ SalusBassFigures = \figuremode {
 	<6 4> <7> <_+>2 %17 finis
 }
 
+ReginaOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 3/4 \tempoRegina
+		\mvTr d8\fE-\solo-\tasto d' d d d16 cis h a
+		d8 d, d' d d16 cis h a
+		d cis h a h a g fis g fis e d
+		a'8 a, r a' a a
+		h cis16 d e8 d cis h %5
+		a h16 cis d8 cis h a
+		h fis g e a a,
+		d d-\tutti g4 a
+		d,8 d'-! d-! d-! d16-! cis-! h-! a-!
+		d8-! d, g4 a %10
+		d,8 \clef treble a''[ a a a a]
+		<< {
+			r e' e e e e
+			dis4 d8 d4 d8
+			cis8
+		} \\ {
+			gis4 g8 g g g
+			fis4 fis8 gis4 gis8
+			a
+		} >> \clef bass a, a a a a
+		gis4 g8 g g g %15
+		fis fis fis gis gis gis
+		a4 a8 d^\critnote d d
+		cis4 cis8 cis cis cis
+		h h h h cis cis
+		d8. d16 d8 d,16 cis d e fis g %20
+		a4 r r
+		r r8 a h cis
+		d cis16 h a8 fis g a
+		h a16 g fis8 d g16 fis g a
+		h8 fis g e a a, %25
+		d4 r r
+		R2.*6 %32
+		r8 a'[ h cis] d cis16 h
+		a8[ fis g a] h a16 g
+		fis8 d g16 fis g a h a h cis %35
+		d8 fis, g e a a,
+		\time 4/4 \tempoReginaSanctorum d4 d c c
+		r8 c c c h4 h
+		e8 e e e cis cis cis cis
+		d d d d gis gis gis gis %40
+		a4 r r8 a a a
+		g g g g fis4 e8 d
+		a1
+		d\fermata \bar "||" %44 finis
+	}
+}
+
+ReginaBassFigures = \figuremode {
+	r2.
+	r
+	r
+	r
+	r %5
+	r
+	r
+	r4 <6>2
+	r2.
+	r4 <[6]>2 %10
+	r2.
+	r
+	r
+	r
+	<6>4 <\t>2 %15
+	<6\\>4 <[6!]>8 <6 5>4.
+	r2.
+	<6>
+	q2 <6 5>4
+	r2. %20
+	r
+	r2 <6>8 q
+	<3> q16 q q8 <[6]>4.
+	r4 <[6]>2
+	r8 <[6]> r2 %25
+	r2.*7 %32
+	r4 <6>8 q r4
+	r8 <[6]> r2
+	\bo <[6]>2 \bc q4 %35
+	r8 <6> r2
+	r2 <2>
+	r8 <\t>4. <7 _+>2
+	<3> <6 5>
+	r <7! 5> %40
+	r1
+	<4 2>2 <6>4 q8 <5 3>
+	\bo <[5 3]>4 <6 4> <5 \t> \bc <[\t 3]>
+	r1 %44 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

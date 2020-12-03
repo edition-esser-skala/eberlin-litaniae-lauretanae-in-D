@@ -253,3 +253,73 @@ ReginaViolinoII = {
 		d1\fermata \bar "||" %44 finis
 	}
 }
+
+AgnusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 3/4 \tempoAgnus
+		R2.*3
+		r8 d\pE g g g16 fis a c
+		c( h) g'( e) c8 c4 h16 a %5
+		h d g e c8 c4 h16 a
+		h e d h c a h g a8 fis
+		g2 r4
+		R2.*9 %17
+		r8 a d d d16 cis e g
+		g( fis) d'( h) g8 g4 fis16 e
+		fis a d h g8 g4 fis16 e %20
+		fis h a fis g e fis d e8 cis
+		d4 r r
+		R2.*2
+		r4 r a' %25
+		g g8 fis g e
+		fis4 fis r
+		R2.*4 %31
+		r8 a16\fE g fis e d cis h a g fis
+		g'4 fis r
+		r8 d,[ d d] d d'16 fis
+		g4 fis r8 d %35
+		d2 d4~
+		d d cis \noBreak
+		d2.\fermata \bar "||"
+		\twofourtime \key d \major \time 2/4 \newSpacingSection
+			R2*8 %46
+		h2
+		d,
+		cis
+		a' %50
+		r8 c,4 c8
+		h d g4
+		g fis
+		e2
+		fis8 fis a fis %55
+		e4 e
+		r8 h'4 h8
+		h a gis4
+		r8 a4 a8
+		a g! fis4 %60
+		e2
+		fis4 r
+		fis4. fis8
+		e2
+		cis8 d e4 %65
+		e d
+		g2
+		h8 a g fis
+		e4 r
+		R2*3 %72
+		r8 e4 e8
+		d e fis4
+		fis8 e g fis %75
+		e cis'4 cis8
+		d d4 cis8
+		h h4 a8
+		g cis4 cis8
+		d g e e %80
+		fis4 fis8 fis
+		d4 d
+		d2
+		h
+		a\fermata \bar "|." %85 FINIS
+	}
+}

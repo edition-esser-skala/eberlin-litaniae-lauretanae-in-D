@@ -327,13 +327,137 @@ ReginaAltoLyrics = \lyricmode {
 	\x bis. %44 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% AltoLyrics = \lyricmode {
-%
-% }
+AgnusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 3/4 \autoBeamOff \tempoAgnus
+		r4 \mvTr d\pE^\solo e
+		e d d
+		c c8 h c a
+		h4 h r
+		R2.*3 %7
+		r4 d e
+		e d d
+		c c8 h c a %10
+		h4 h d8 g
+		e2 e4
+		r d8([ e)] fis([ g)]
+		a([ fis)] g4 fis~
+		fis e8[ fis] g4 %15
+		g( fis8[ e] fis4)
+		e8([ d)] e4. e8
+		fis2 r4
+		R2.*13 %31
+		r4 \mvTr fis\fE^\tuttiE fis
+		g fis r
+		r r r8 fis
+		g4 fis r8 fis %35
+		g2 a4~
+		a g2 \noBreak
+		fis2.\fermata \bar "||"
+		\twofourtime \key d \major \time 2/4
+			R2*8 %46
+		h2
+		d,
+		cis
+		a' %50
+		r8 c,!4 c8
+		h[ d] g4~
+		g fis
+		e2
+		fis8 fis([ a)] fis %55
+		e4 e
+		r8 h'4 h8
+		h([ a)] gis4
+		r8 a4 a8
+		a([ g!)] fis4 %60
+		e2
+		fis4 r
+		fis4. fis8
+		e2
+		cis8[ d] \once \tieDashed e4~ %65
+		e d
+		d2
+		h'8([ a g fis)]
+		e4 r
+		R2*3 %72
+		r8 e4 e8
+		d8[ e] \once \tieDashed fis4~
+		fis8[ e g fis] %75
+		e8 e4 e8
+		fis2
+		d8 d4 d8
+		g4 a
+		a8 h a4 %80
+		a fis8 fis
+		d4 d
+		d2(
+		g)
+		fis\fermata \bar "|." %85 FINIS
+	}
+}
+
+AgnusAltoLyrics = \lyricmode {
+	A -- gnus
+	De -- i, qui
+	tol -- lis pec -- ca -- ta
+	mun -- di,
+
+	A -- gnus %8
+	De -- i, qui
+	tol -- lis pec -- ca -- ta %10
+	mun -- di: Par -- ce
+	no -- bis,
+	par -- ce
+	no -- bis, par --
+	_ ce  %15
+	no --
+	bis, Do -- mi --
+	ne.
+
+	A -- gnus %32
+	De -- i,
+	qui
+	tol -- lis pec -- %35
+	ca -- ta __
+	mun --
+	di:
+
+	Mi -- %47
+	se --
+	re --
+	re, %50
+	mi -- se --
+	re -- _
+	re
+	no --
+	bis, mi -- se -- %55
+	re -- re,
+	mi -- se --
+	re -- re,
+	mi -- se --
+	re -- re %60
+	no --
+	bis,
+	mi -- se --
+	re --
+	_ _ %65
+	_
+	re
+	no --
+	bis,
+
+	mi -- se -- %73
+	re -- _
+	%75
+	re, mi -- se --
+	re --
+	re, mi -- se --
+	re -- re,
+	mi -- se -- re -- %80
+	re, mi -- se --
+	re -- re
+	no --
+
+	bis. %85 FINIS
+}

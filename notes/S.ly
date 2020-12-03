@@ -331,13 +331,132 @@ ReginaSopranoLyrics = \lyricmode {
 	\x bis. %44 finis
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% SopranoLyrics = \lyricmode {
-%
-% }
+AgnusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 3/4 \autoBeamOff \tempoAgnus
+		R2.*21 %21
+		r4 \mvTr fis'\pE^\solo g
+		g fis fis
+		e e8 d e cis
+		d4 d r %25
+		R2.
+		r4 a( d)
+		h2.
+		cis
+		d4. e8 fis4 %30
+		e8([ d] d4.) cis8
+		d4 \mvTr a\fE^\tutti a
+		h a r
+		r r r8 a
+		h4 a r8 a %35
+		h2 d4~
+		d d( cis) \noBreak
+		d2.\fermata \bar "||"
+		\twofourtime \key d \major \time 2/4 \newSpacingSection
+			fis2 \noBreak
+		a, %40
+		gis
+		e'
+		r8 g,!4 g8
+		fis([ a)] d4
+		d( cis) %45
+		d2
+		r8 d([ fis)] d
+		h[ cis d h]
+		h[ cis a gis]
+		a[ h] cis4 %50
+		a8[ h g! fis]
+		g[ a] h4
+		cis!8[ a] d4
+		d( cis)
+		d2 %55
+		cis8([ cis e cis)]
+		h([ cis d e)]
+		gis,[ a] \once \tieDashed h4~
+		h8[ a h cis]
+		d4 a %60
+		g2
+		fis4 r
+		R2*6 %68
+		fis'2
+		a, %70
+		gis
+		e'
+		r8 g,!4 g8
+		fis[ a] \once \tieDashed d4~
+		d8[ cis e d] %75
+		cis cis4 cis8
+		d( d4 cis8)
+		h h4 a8
+		g( cis4 cis8
+		d) d d([ cis)] %80
+		d4 a8 a
+		h4 a
+		h2(
+		d)^\critnote
+		d\fermata \bar "|." %85 FINIS
+	}
+}
+
+AgnusSopranoLyrics = \lyricmode {
+	A -- gnus %22
+	De -- i, qui
+	tol -- lis pec -- ca -- ta
+	mun -- di: %25
+
+	Ex --
+	au --
+	_
+	_ di nos, %30
+	Do -- mi --
+	ne. A -- gnus
+	De -- i,
+	qui
+	tol -- lis pec -- %35
+	ca -- ta __
+	mun --
+	di:
+	Mi --
+	se -- %40
+	re --
+	re,
+	mi -- se --
+	re -- re
+	no -- %45
+	bis,
+	mi -- se --
+	re --
+	_
+	_ _ %50
+	_
+	_ _
+	_ re
+	no --
+	bis, %55
+	mi --
+	se --
+	re -- _
+
+	_ re %60
+	no --
+	bis,
+
+	mi -- %69
+	se -- %70
+	re --
+	re,
+	mi -- se --
+	re -- _
+	%75
+	re, mi -- se --
+	re --
+	\xE re, mi -- se --
+	re --
+	\x re no -- %80
+	bis, mi -- se --
+	re -- re
+	no --
+
+	bis. %85 FINIS
+}

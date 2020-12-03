@@ -329,13 +329,123 @@ ReginaTenoreLyrics = \lyricmode {
 	\x bis. %44 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-%
-% 	}
-% }
-%
-% TenoreLyrics = \lyricmode {
-%
-% }
+AgnusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \major \time 3/4 \autoBeamOff \tempoAgnus
+		r4 \mvTr h\pE^\solo c
+		c h h
+		a a8 g a fis
+		g4 g r
+		R2.*3 %7
+		r4 h c
+		c h h
+		a a8 g a fis %10
+		g4 g r
+		r g c^\critnote
+		a( fis8[ g)] a([ h)]
+		c([ a)] h4 d~
+		d cis8[ d] e4 %15
+		e( d8[ cis] d4)
+		d d4. cis8
+		d2 r4
+		R2.*13 %31
+		r4 \mvTr d\fE^\tuttiE d
+		d d r
+		r r r8 d
+		d4^\critnote d r8 d %35
+		d2^\critnote fis4~
+		fis e2 \noBreak
+		d2.\fermata \bar "||"
+		\twofourtime \key d \major \time 2/4
+			R2*16 %54
+		fis2 %55
+		a,
+		gis
+		e'
+		r8 g,!4 g8
+		fis([ a)] d4 %60
+		d( cis)
+		d8 fis4 d8
+		d[ e fis h,]
+		h[ cis a gis]
+		a[ h] cis4 %65
+		a8[ h g! fis]
+		g[ a] h4
+		cis8[( d e d)]
+		cis4 r
+		a2 %70
+		a
+		\tieDashed a~
+		a~
+		a~
+		a \tieSolid %75
+		a8 e'4 e8
+		\once \tieDashed d2~
+		d
+		e
+		d8 h a4 %80
+		a d8 d
+		h4 a
+		\once \tieDashed h2~
+		h
+		a\fermata \bar "|." %85 FINIS
+	}
+}
+
+AgnusTenoreLyrics = \lyricmode {
+	A -- gnus
+	De -- i, qui
+	tol -- lis pec -- ca -- ta
+	mun -- di,
+
+	A -- gnus %8
+	De -- i, qui
+	tol -- lis pec -- ca -- ta %10
+	mun -- di:
+	Par -- ce,
+	par -- ce
+	no -- bis, par --
+	_ ce %15
+	no --
+	bis, Do -- mi --
+	ne.
+
+	A -- gnus %32
+	De -- i,
+	qui
+	tol -- lis pec -- %35
+	ca -- ta __
+	mun --
+	di:
+
+	Mi -- %55
+	se --
+	re --
+	re,
+	mi -- se --
+	re -- re %60
+	no --
+	bis, mi -- se --
+	re --
+	_
+	_ _ %65
+	_
+	_ re
+	no --
+	bis,
+	mi -- %70
+	se --
+	re --
+
+	re, mi -- se -- %76
+	re --
+
+	re,
+	mi -- se -- re -- %80
+	re, mi -- se --
+	re -- re
+	no --
+
+	bis. %85 FINIS
+}

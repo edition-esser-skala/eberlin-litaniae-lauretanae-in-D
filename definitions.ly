@@ -666,6 +666,7 @@ tempoSpeculum = \tempoMarkup "[Tempo deest]"
 tempoSalus = \tempoMarkup "Adagio"
 tempoRegina = \tempoMarkup "Allegro"
 	tempoReginaSanctorum = \tempoMarkup "Adagio"
+tempoAgnus = \tempoMarkup "[Tempo deest]"
 
 
 \include "notes/vl1.ly"

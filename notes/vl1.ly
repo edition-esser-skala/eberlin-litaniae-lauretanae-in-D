@@ -252,9 +252,76 @@ ReginaViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
+AgnusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 3/4 \tempoAgnus
+		R2.*3
+		r8 d\pE g g g16 fis a c
+		c( h) g'( e) c8 c4 h16 a %5
+		h d g e c8 c4 h16 a
+		h e d h c a h g a8 fis
+		g2 r4
+		R2.*9 %17
+		r8 a d d d16 cis e g
+		g( fis) d'( h) g8 g4 fis16 e
+		fis a d h g8 g4 fis16 e %20
+		fis h a fis g e fis d e8 cis
+		d4 r r
+		R2.*2
+		r4 r a' %25
+		g g8 fis g e
+		fis4 fis r
+		R2.*4 %31
+		r8 a16\fE g fis e d cis h a g fis
+		h'4 a r
+		r8 d,,[ d d] d fis'16 a
+		h4 a r8 a %35
+		h2 a4~
+		a g2 \noBreak
+		fis2.\fermata \bar "||"
+		\twofourtime \key d \major \time 2/4 \newSpacingSection
+			fis2 \noBreak
+		a, %40
+		gis
+		e'
+		r8 g,!4 g8
+		fis a d4
+		d cis %45
+		d2
+		r8 d fis d
+		h cis d h
+		h cis a gis
+		a h cis4 %50
+		a8 h g! fis
+		g a h4
+		cis!8 a d4~
+		d cis
+		d2 %55
+		cis8 cis e cis
+		h cis d e
+		gis, a h4
+		h8 a h cis
+		d4 a %60
+		g2
+		fis4 r
+		R2*6 %68
+		fis'2
+		a, %70
+		gis
+		e'
+		r8 g,!4 g8
+		fis a d4~
+		d8 cis^\critnote e d %75
+		cis e4 e8
+		fis fis4 fis8
+		d d4 d8
+		g4 a
+		a8 h a4 %80
+		a a8 a
+		g4 a
+		g2
+		g
+		fis\fermata \bar "|." %85 FINIS
+	}
+}

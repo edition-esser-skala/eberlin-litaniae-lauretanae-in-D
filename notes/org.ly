@@ -742,6 +742,6 @@ AgnusBassFigures = \figuremode {
 	r2
 	r
 	r
-	<[4]>
+	r
 	r %85 FINIS
 }

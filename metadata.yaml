@@ -1,0 +1,17 @@
+composer: Eberlin, Johann Ernst
+title: Litaniae lauretanae
+id: (D-Mbs Mus.ms. 1320)
+genre: litany
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+sources:
+  1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 1320
+    type: manuscript copy
+    date: ca. 1760
+    rism: 456008815
+    url: http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00075245-2
+github: eberlin-litaniae-lauretanae-in-D
+imslp: Litaniae_lauretanae_in_D_major_(Eberlin,_Johann_Ernst)
+notes:
+
